@@ -9,6 +9,7 @@
     settings = {
         command = "bash -c -l nu";
         font-family = "JetBrainsMono Nerd Font";
+        theme = "TokyoNight";
         background-opacity = 0.95;
         background-blur = 20;
         macos-non-native-fullscreen = "visible-menu";
