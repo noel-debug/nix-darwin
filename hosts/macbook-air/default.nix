@@ -2,6 +2,7 @@
   system.primaryUser = "noel";
   nixpkgs.hostPlatform = "aarch64-darwin";
   nix.enable = false; # Deterministic daemon compatibility
+  users.users.noel.home = "/Users/noel";
 
   # Touch ID for terminal
   security.pam.services.sudo_local.touchIdAuth = true;
@@ -29,6 +30,7 @@
       "google-chrome"
       "google-drive"
       "1password"
+      "chatgpt"
     ];
   };
 

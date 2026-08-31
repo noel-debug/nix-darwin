@@ -5,5 +5,6 @@
     pkgs.ripgrep
     pkgs.jq
     pkgs.github-cli
+    pkgs.nushell
   ];
 }
