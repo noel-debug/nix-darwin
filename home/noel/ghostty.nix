@@ -7,9 +7,10 @@
     # Homebrew cask configuration.
     package = null;
     settings = {
-        command = "bash -l -c nu";
+        command = "bash -c -l nu";
+        font-family = "JetBrainsMono Nerd Font";
         background-opacity = 0.95;
-        background-blur-radius = 20;
+        background-blur = 20;
         macos-non-native-fullscreen = "visible-menu";
     };
   };

@@ -20,6 +20,7 @@
     darwinConfigurations."Noels-MacBook-Air" = nix-darwin.lib.darwinSystem {
       modules = [
         ./modules/shared-packages.nix
+        ./modules/shared-fonts.nix
         ./hosts/macbook-air
         home-manager.darwinModules.home-manager
         {
