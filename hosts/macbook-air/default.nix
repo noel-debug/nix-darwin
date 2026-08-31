@@ -9,6 +9,12 @@
   # macOS GUI settings
   system.defaults = {
     finder.AppleShowAllExtensions = true;
+    dock.show-recents=true;
+    CustomUserPreferences = {
+      "com.apple.dock" = {
+        show-recent-count = 10;
+      };
+    };
   };
 
   # macOS GUI Applications
