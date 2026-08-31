@@ -32,6 +32,7 @@
       "1password"
       "chatgpt"
       "antigravity"
+      "vlc"
     ];
   };
 
