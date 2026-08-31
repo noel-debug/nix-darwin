@@ -31,6 +31,7 @@
       "google-drive"
       "1password"
       "chatgpt"
+      "antigravity"
     ];
   };
 
