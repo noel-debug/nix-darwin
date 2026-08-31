@@ -19,6 +19,7 @@
       "ghostty"
       "zcode"
       "visual-studio-code"
+      "spotify"
     ];
   };
 
