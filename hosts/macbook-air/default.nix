@@ -20,6 +20,9 @@
       "zcode"
       "visual-studio-code"
       "spotify"
+      "google-chrome"
+      "google-drive"
+      "1password"
     ];
   };
 
