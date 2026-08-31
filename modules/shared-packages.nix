@@ -7,5 +7,7 @@
     pkgs.github-cli
     pkgs.nushell
     pkgs.fastfetch
+    pkgs.fd
+    pkgs.neovim
   ];
 }
