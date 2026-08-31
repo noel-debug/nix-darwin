@@ -9,5 +9,6 @@
     pkgs.fastfetch
     pkgs.fd
     pkgs.neovim
+    pgks.tree-sitter
   ];
 }
