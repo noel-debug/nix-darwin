@@ -20,6 +20,8 @@
                 $env.MANPATH = $env.MANPATH? | prepend '/opt/homebrew/share/man'
                 $env.INFOPATH = $env.INFOPATH? | prepend '/opt/homebrew/share/info'
             }
+            # Prompt
+            source ${./nushell/prompt.nu}
         '';
     };
 }
