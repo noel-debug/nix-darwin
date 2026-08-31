@@ -6,5 +6,6 @@
     pkgs.jq
     pkgs.github-cli
     pkgs.nushell
+    pkgs.fastfetch
   ];
 }
