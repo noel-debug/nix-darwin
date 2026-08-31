@@ -10,5 +10,6 @@
     pkgs.fd
     pkgs.neovim
     pkgs.tree-sitter
+    pkgs.ffmpeg
   ];
 }
