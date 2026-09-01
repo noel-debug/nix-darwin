@@ -35,6 +35,7 @@
       "vlc"
       "vesktop"
       "tailscale"
+      "cleanshot"
     ];
   };
 
