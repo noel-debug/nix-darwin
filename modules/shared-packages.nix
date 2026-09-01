@@ -14,5 +14,9 @@
     pkgs.nodejs_26
     pkgs.python313
     pkgs.uv
+    pkgs.gcc
+    pkgs.llvm
+    pkgs.cmake
+    pkgs.ninja
   ];
 }
