@@ -32,6 +32,7 @@
       "1password"
       "chatgpt"
       "antigravity"
+      "antigravity-cli"
       "vlc"
       "vesktop"
       "tailscale"
