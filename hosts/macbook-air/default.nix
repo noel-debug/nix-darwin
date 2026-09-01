@@ -35,7 +35,7 @@
       "antigravity-cli"
       "vlc"
       "vesktop"
-      "tailscale"
+      "tailscale-app"
       "cleanshot"
     ];
   };
