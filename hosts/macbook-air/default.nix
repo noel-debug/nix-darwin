@@ -34,6 +34,7 @@
       "antigravity"
       "vlc"
       "vesktop"
+      "tailscale"
     ];
   };
 
