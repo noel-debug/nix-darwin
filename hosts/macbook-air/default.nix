@@ -33,6 +33,7 @@
       "chatgpt"
       "antigravity"
       "vlc"
+      "vesktop"
     ];
   };
 
