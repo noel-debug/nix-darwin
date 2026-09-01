@@ -28,8 +28,34 @@ This installs everything (Homebrew included, if missing) and adds `darwin-rebuil
 
 ## Daily usage
 
+Apply local configuration changes:
+
 ```sh
 darwin-rebuild switch --flake ~/.config/nix-darwin#Noels-MacBook-Air
+```
+
+## Updating packages
+
+Update all flake inputs (`nixpkgs`, `nix-darwin`, `home-manager`) and switch:
+
+```sh
+# 1. Update the lockfile
+nix flake update --flake ~/.config/nix-darwin
+
+# 2. Apply updates
+darwin-rebuild switch --flake ~/.config/nix-darwin#Noels-MacBook-Air
+```
+
+Or do both in a single step:
+
+```sh
+darwin-rebuild switch --flake ~/.config/nix-darwin#Noels-MacBook-Air --recreate-lock-file
+```
+
+To clean up old package generations and reclaim disk space:
+
+```sh
+nix-collect-garbage -d
 ```
 
 ## Structure
