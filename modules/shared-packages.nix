@@ -11,5 +11,6 @@
     pkgs.neovim
     pkgs.tree-sitter
     pkgs.ffmpeg
+    pkgs.nodejs_26
   ];
 }
