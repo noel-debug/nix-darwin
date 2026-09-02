@@ -36,6 +36,7 @@
       "vesktop"
       "tailscale-app"
       "cleanshot"
+      "muse-code"
     ];
   };
 
