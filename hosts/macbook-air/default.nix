@@ -30,7 +30,6 @@
       "google-chrome"
       "google-drive"
       "1password"
-      "chatgpt"
       "antigravity"
       "antigravity-cli"
       "vlc"
