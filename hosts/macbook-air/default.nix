@@ -37,6 +37,7 @@
       "tailscale-app"
       "cleanshot"
       "muse-code"
+      "chatgpt"
     ];
   };
 
