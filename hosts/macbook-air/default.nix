@@ -38,6 +38,7 @@
       "cleanshot"
       "muse-code"
       "chatgpt"
+      "focusrite-control-2"
     ];
   };
 
