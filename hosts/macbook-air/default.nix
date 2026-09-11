@@ -40,6 +40,7 @@
       "chatgpt"
       "focusrite-control-2"
       "mullvad-vpn"
+      "codex"
     ];
   };
 
