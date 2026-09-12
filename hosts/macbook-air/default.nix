@@ -41,6 +41,7 @@
       "focusrite-control-2"
       "mullvad-vpn"
       "codex"
+      "domzilla-caffeine"
     ];
   };
 
