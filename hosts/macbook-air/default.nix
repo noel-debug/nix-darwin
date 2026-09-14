@@ -13,7 +13,7 @@
     dock.show-recents=true;
     CustomUserPreferences = {
       "com.apple.dock" = {
-        show-recent-count = 10;
+        show-recent-count = 5;
       };
     };
   };
